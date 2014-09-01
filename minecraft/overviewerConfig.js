@@ -5,23 +5,23 @@ var overviewerConfig = {
     "tilesets": [
         {
             "spawn": [
-                -32, 
-                74, 
-                -22
+                256, 
+                64, 
+                172
             ], 
             "isOverlay": false, 
-            "last_rendertime": 1409336326, 
+            "last_rendertime": 1409610478, 
             "name": "Overviewer Render (lighting)", 
             "poititle": "Markers", 
             "north_direction": 0, 
             "minZoom": 0, 
             "bgcolor": "#1a1a1a", 
-            "zoomLevels": 8, 
+            "zoomLevels": 7, 
             "base": "", 
             "imgextension": "png", 
             "defaultZoom": 1, 
             "world": "world", 
-            "maxZoom": 8, 
+            "maxZoom": 7, 
             "path": "world-lighting", 
             "showlocationmarker": true
         }
@@ -60,6 +60,6 @@ var overviewerConfig = {
             67, 
             94
         ], 
-        "cacheTag": "1409365125"
+        "cacheTag": "1409612030"
     }
 };
