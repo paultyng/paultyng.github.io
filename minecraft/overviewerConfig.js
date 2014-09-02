@@ -1,6 +1,6 @@
 var overviewerConfig = {
     "worlds": [
-        "world"
+        "My World"
     ], 
     "tilesets": [
         {
@@ -11,7 +11,7 @@ var overviewerConfig = {
             ], 
             "isOverlay": false, 
             "last_rendertime": 1409692492, 
-            "name": "Overviewer Render (lighting)", 
+            "name": "A regular render", 
             "poititle": "Markers", 
             "north_direction": 0, 
             "minZoom": 0, 
@@ -20,9 +20,53 @@ var overviewerConfig = {
             "base": "", 
             "imgextension": "png", 
             "defaultZoom": 1, 
-            "world": "world", 
+            "world": "My World", 
             "maxZoom": 7, 
-            "path": "world-lighting", 
+            "path": "render1", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                256, 
+                64, 
+                172
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1409692492, 
+            "name": "Upper-right north direction", 
+            "poititle": "Markers", 
+            "north_direction": 1, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 7, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World", 
+            "maxZoom": 7, 
+            "path": "render2", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                256, 
+                64, 
+                172
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1409692492, 
+            "name": "Nighttime", 
+            "poititle": "Markers", 
+            "north_direction": 0, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 7, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World", 
+            "maxZoom": 7, 
+            "path": "render3", 
             "showlocationmarker": true
         }
     ], 
@@ -60,6 +104,6 @@ var overviewerConfig = {
             67, 
             94
         ], 
-        "cacheTag": "1409692555"
+        "cacheTag": "1409694180"
     }
 };
