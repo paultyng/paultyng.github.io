@@ -9,7 +9,7 @@ worlds['My World'] = "C:\\users\\Paul\\AppData\\Roaming\\.minecraft\\saves\\serv
 # Define where to put the output here.
 outputdir = "D:\\github\\paultyng.github.io\\minecraft"
 
-texturepath = "C:\\Users\\Paul\\AppData\\Roaming\\.minecraft\\versions\\1.8-pre3\\1.8-pre3.jar"
+texturepath = "C:\\Users\\Paul\\AppData\\Roaming\\.minecraft\\versions\\1.8\\1.8.jar"
 
 # This is an item usually specified in a renders dictionary below, but if you
 # set it here like this, it becomes the default for all renders that don't
