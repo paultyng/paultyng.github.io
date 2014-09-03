@@ -1,6 +1,7 @@
 var overviewerConfig = {
     "worlds": [
-        "My World"
+        "My World", 
+        "My World - nether"
     ], 
     "tilesets": [
         {
@@ -11,7 +12,7 @@ var overviewerConfig = {
             ], 
             "isOverlay": false, 
             "last_rendertime": 1409773675, 
-            "name": "Southwest / Daytime", 
+            "name": "SW", 
             "poititle": "Markers", 
             "north_direction": 0, 
             "minZoom": 0, 
@@ -33,7 +34,7 @@ var overviewerConfig = {
             ], 
             "isOverlay": false, 
             "last_rendertime": 1409773675, 
-            "name": "Southeast / Daytime", 
+            "name": "SE", 
             "poititle": "Markers", 
             "north_direction": 1, 
             "minZoom": 0, 
@@ -55,6 +56,50 @@ var overviewerConfig = {
             ], 
             "isOverlay": false, 
             "last_rendertime": 1409773675, 
+            "name": "NE", 
+            "poititle": "Markers", 
+            "north_direction": 2, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 7, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World", 
+            "maxZoom": 7, 
+            "path": "render3", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                256, 
+                64, 
+                172
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1409773675, 
+            "name": "NW", 
+            "poititle": "Markers", 
+            "north_direction": 3, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 7, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World", 
+            "maxZoom": 7, 
+            "path": "render4", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                256, 
+                64, 
+                172
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1409773675, 
             "name": "Nighttime", 
             "poititle": "Markers", 
             "north_direction": 0, 
@@ -66,7 +111,69 @@ var overviewerConfig = {
             "defaultZoom": 1, 
             "world": "My World", 
             "maxZoom": 7, 
-            "path": "render3", 
+            "path": "render5", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                256, 
+                64, 
+                172
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1409773675, 
+            "name": "Cave", 
+            "poititle": "Markers", 
+            "north_direction": 0, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 7, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World", 
+            "maxZoom": 7, 
+            "path": "render6", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": "false", 
+            "isOverlay": false, 
+            "last_rendertime": 1409772265, 
+            "name": "Nether", 
+            "poititle": "Markers", 
+            "north_direction": 0, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 6, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World - nether", 
+            "maxZoom": 6, 
+            "path": "render7", 
+            "showlocationmarker": true
+        }, 
+        {
+            "spawn": [
+                256, 
+                64, 
+                172
+            ], 
+            "isOverlay": false, 
+            "last_rendertime": 1409773675, 
+            "name": "Resources", 
+            "poititle": "Markers", 
+            "north_direction": 0, 
+            "minZoom": 0, 
+            "bgcolor": "#1a1a1a", 
+            "zoomLevels": 7, 
+            "base": "", 
+            "imgextension": "png", 
+            "defaultZoom": 1, 
+            "world": "My World", 
+            "maxZoom": 7, 
+            "path": "render8", 
             "showlocationmarker": true
         }
     ], 
@@ -104,6 +211,6 @@ var overviewerConfig = {
             67, 
             94
         ], 
-        "cacheTag": "1409774236"
+        "cacheTag": "1409776089"
     }
 };
