@@ -19,14 +19,14 @@ rendermode = "smooth_lighting"
 
 renders["render1"] = {
         'world': 'My World',
-        'title': 'A regular render',
+        'title': 'Southwest / Daytime',
 }
 
 # This example is the same as above, but rotated
 renders["render2"] = {
         'world': 'My World',
         'northdirection': 'upper-right',
-        'title': 'Upper-right north direction',
+        'title': 'Southeast / Daytime',
 }
 
 # Here's how to do a nighttime render. Also try "smooth_night" instead of "night"
