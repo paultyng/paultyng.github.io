@@ -20,41 +20,41 @@ renders["render2"] = {
         'title': 'SE',
 }
 
-renders["render3"] = {
-        'world': 'My World',
-        'northdirection': 'lower-right',
-        'title': 'NE',
-}
+#renders["render3"] = {
+#        'world': 'My World',
+#        'northdirection': 'lower-right',
+#        'title': 'NE',
+#}
 
-renders["render4"] = {
+renders["render3"] = {
         'world': 'My World',
         'northdirection': 'lower-left',
         'title': 'NW',
 }
 
-renders["render5"] = {
+renders["render4"] = {
         'world': 'My World',
         'title': 'Nighttime',
         'rendermode': 'smooth_night',
 }
 
-renders["render6"] = {
-        'world': 'My World',
-        'title': 'Cave',
-        'rendermode': 'cave',
-}
+#renders["render6"] = {
+#        'world': 'My World',
+#        'title': 'Cave',
+#        'rendermode': 'cave',
+#}
 
-renders["render7"] = {
-        'world': 'My World',
-        'title': 'Nether',
-        'dimension': 'nether',
-        'rendermode': 'nether_smooth_lighting',
-}
+#renders["render7"] = {
+#        'world': 'My World',
+#        'title': 'Nether',
+#        'dimension': 'nether',
+#        'rendermode': 'nether',
+#}
 
-renders["render8"] = {
-        'world': 'My World',
-        'title': 'Resources',
-        'rendermode': resources,
-}
+#renders["render8"] = {
+#        'world': 'My World',
+#        'title': 'Resources',
+#        'rendermode': resources,
+#}
 
 
