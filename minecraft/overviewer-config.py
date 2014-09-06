@@ -1,6 +1,6 @@
 resources = [Base(), EdgeLines(), MineralOverlay(), SlimeOverlay(), SmoothLighting()]
 
-worlds['My World'] = "C:\\users\\Paul\\AppData\\Roaming\\.minecraft\\saves\\server-201409011826"
+worlds['My World'] = "C:\\users\\Paul\\AppData\\Roaming\\.minecraft\\saves\\server-201409060016"
 
 outputdir = "D:\\github\\paultyng.github.io\\minecraft"
 
