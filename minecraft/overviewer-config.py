@@ -1,6 +1,14 @@
+import sys,os
+
 resources = [Base(), EdgeLines(), MineralOverlay(), SlimeOverlay(), SmoothLighting()]
 
-worlds['My World'] = "C:\\users\\Paul\\AppData\\Roaming\\.minecraft\\saves\\server-201409060016"
+savesdirectory = "C:\\users\\Paul\\AppData\\Roaming\\.minecraft\\saves"
+
+worlddirectory = max([os.path.join(savesdirectory, d) for d in os.listdir(savesdirectory)], key = os.path.getmtime)
+
+sys.stderr.write("Using world %(worlddirectory)s" % locals())
+
+worlds['My World'] = worlddirectory
 
 outputdir = "D:\\github\\paultyng.github.io\\minecraft"
 
