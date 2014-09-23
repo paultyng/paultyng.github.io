@@ -6,11 +6,11 @@ var overviewerConfig = {
         {
             "spawn": [
                 256, 
-                64, 
+                72, 
                 172
             ], 
             "isOverlay": false, 
-            "last_rendertime": 1410053586, 
+            "last_rendertime": 1411423486, 
             "name": "SW", 
             "poititle": "Markers", 
             "north_direction": 0, 
@@ -22,73 +22,7 @@ var overviewerConfig = {
             "defaultZoom": 1, 
             "world": "My World", 
             "maxZoom": 8, 
-            "path": "render1", 
-            "showlocationmarker": true
-        }, 
-        {
-            "spawn": [
-                256, 
-                64, 
-                172
-            ], 
-            "isOverlay": false, 
-            "last_rendertime": 1410053586, 
-            "name": "SE", 
-            "poititle": "Markers", 
-            "north_direction": 1, 
-            "minZoom": 0, 
-            "bgcolor": "#1a1a1a", 
-            "zoomLevels": 8, 
-            "base": "", 
-            "imgextension": "png", 
-            "defaultZoom": 1, 
-            "world": "My World", 
-            "maxZoom": 8, 
-            "path": "render2", 
-            "showlocationmarker": true
-        }, 
-        {
-            "spawn": [
-                256, 
-                64, 
-                172
-            ], 
-            "isOverlay": false, 
-            "last_rendertime": 1410053586, 
-            "name": "NW", 
-            "poititle": "Markers", 
-            "north_direction": 3, 
-            "minZoom": 0, 
-            "bgcolor": "#1a1a1a", 
-            "zoomLevels": 8, 
-            "base": "", 
-            "imgextension": "png", 
-            "defaultZoom": 1, 
-            "world": "My World", 
-            "maxZoom": 8, 
-            "path": "render3", 
-            "showlocationmarker": true
-        }, 
-        {
-            "spawn": [
-                256, 
-                64, 
-                172
-            ], 
-            "isOverlay": false, 
-            "last_rendertime": 1410053586, 
-            "name": "Nighttime", 
-            "poititle": "Markers", 
-            "north_direction": 0, 
-            "minZoom": 0, 
-            "bgcolor": "#1a1a1a", 
-            "zoomLevels": 8, 
-            "base": "", 
-            "imgextension": "png", 
-            "defaultZoom": 1, 
-            "world": "My World", 
-            "maxZoom": 8, 
-            "path": "render4", 
+            "path": "osw", 
             "showlocationmarker": true
         }
     ], 
@@ -126,6 +60,6 @@ var overviewerConfig = {
             67, 
             94
         ], 
-        "cacheTag": "1410054105"
+        "cacheTag": "1411424665"
     }
 };
